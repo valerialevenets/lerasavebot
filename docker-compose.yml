@@ -1,0 +1,11 @@
+services:
+  lerasavebot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lerasavebot
+    volumes:
+      - ./:/var/www/bot
+    # command: php Bot.php
+    restart: always
+    privileged: true
