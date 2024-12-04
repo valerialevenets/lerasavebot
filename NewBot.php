@@ -1,5 +1,6 @@
 <?php
 
+exec('composer update');
 require __DIR__.'/vendor/autoload.php';
 
 use Application\MessageProcessor;

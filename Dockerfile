@@ -6,4 +6,5 @@ RUN apt-get update \
       | php -- --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /var/www/bot
-#CMD ["php", "./NewBot.php"]
+
+CMD ["php", "./NewBot.php"]
